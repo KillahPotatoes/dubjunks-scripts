@@ -1,0 +1,25 @@
+/*
+    Killah Potatoes Cratefiller v1.2.0
+
+    Author: Dubjunk - https://github.com/KillahPotatoes
+    License: GNU General Public License v3.0 - https://www.gnu.org/licenses/gpl-3.0.html
+
+    Description:
+    If you don't have an own description.ext file in your mission, you can just use this one.
+    Otherwise copy the content below this comment block right at the end of your description.ext file, if you're unsure how to merge them.
+*/
+
+/*
+    ----- Config Includes -----
+*/
+
+class CfgFunctions {
+    class KP {
+        #include "KP\KPCF\functions.hpp"
+    };
+};
+
+#include "KP\KPGUI\KPGUI_defines.hpp"
+
+#include "KP\KPCF\ui\defines.hpp"
+#include "KP\KPCF\ui\KP_cratefiller_dialog.hpp"
